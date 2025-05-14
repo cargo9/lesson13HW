@@ -1,0 +1,47 @@
+#colorBox {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    margin: 50px auto;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+#counterBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#counterBtn:hover {
+    background-color: #45a049;
+}
+
+#counterValue {
+    font-size: 24px;
+    font-weight: bold;
+}
